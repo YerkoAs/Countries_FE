@@ -26,7 +26,7 @@ Follow these steps to set up and run the project locally:
 1. Clone the repository:
 
     ```bash
-    git clone https://your-repo-url.git
+    git clone https://https://github.com/YerkoAs/Countries_FE.git
     ```
 2. Navigate to the project directory:
 
