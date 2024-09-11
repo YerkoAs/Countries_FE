@@ -1,0 +1,45 @@
+.border-container{
+    margin-bottom: 10%;
+}
+
+.border-flag{
+    width: clamp(45px, 35%, 45px);
+    height: fit-content;
+    margin-left: 7px;
+}
+
+.border-list{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.list{
+    list-style: none;
+    font-size: 25px; 
+    padding: 8px;
+    width: clamp(90px, 25vw, 350px);
+    color: rgb(193, 239, 250);
+    transition: transform 0.5s, font-size 0.5s ;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: clamp(3px, 15%, 40px);
+    gap: 2px;
+    font-size: clamp(8px, 7vw, 40px);
+}
+
+
+.list:hover{
+    transform: scale(1.2);
+    color: rgb(255, 255, 255);
+    transition: transform 0.5s, font-size 0.5s ;
+    cursor: pointer;
+     
+    
+}

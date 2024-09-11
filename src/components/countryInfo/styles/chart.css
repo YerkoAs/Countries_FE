@@ -1,0 +1,4 @@
+.chart-container{
+    width: 100%;
+    height: clamp(200px, 40vh, 700px);
+}

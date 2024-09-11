@@ -1,0 +1,30 @@
+
+
+
+.nav{
+    width:60% ;
+    margin: auto;
+    
+} 
+.nav-list{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0
+}
+
+
+.nav-list-element{
+    list-style: none;
+    color: rgb(209, 199, 199);
+    transition: transform 0.8s, color 0.8s;
+    font-size: clamp(30px,10vw, 50px);
+    text-align: center;
+}
+
+.nav-list-element:hover{
+    transform: scale(1.2);
+    color: rgb(255, 255, 255);
+    transition: transform 0.8s,  color 0.8s;
+    cursor: pointer;
+}
